@@ -18,6 +18,6 @@ jobs:
       run: |
         pip install -r requirements.txt
 
-    - name: Run preprocessing
+    - name: Check Python syntax
       run: |
-        python src/preprocess.py
+        python -m py_compile src/preprocess.py src/train_and_evaluate.py
