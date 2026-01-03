@@ -37,7 +37,23 @@ The project uses the **IMDB Movie Reviews dataset**, which contains labeled text
 2. Clean and preprocess text  
 3. Convert text into numerical features using **TF-IDF**  
 4. Train a **Logistic Regression** model  
-5. Evaluate model performance  
+5. Evaluate model performance
+   ## Example Prediction
+
+**Input Review:**
+> The movie was engaging, well-acted, and emotionally powerful.
+
+**Model Prediction:**
+> ✅ Positive Sentiment
+
+---
+
+**Input Review:**
+> The plot was boring and the acting was terrible.
+
+**Model Prediction:**
+> ❌ Negative Sentiment
+
 
 ---
 
