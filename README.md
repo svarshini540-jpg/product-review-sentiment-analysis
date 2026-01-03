@@ -82,3 +82,10 @@ Use deep learning models such as LSTM or BERT
 Add a web interface using Flask or Streamlit
 
 Perform hyperparameter tuning
+---
+## Notes
+
+- This project is intended for educational and demonstration purposes.
+- The dataset is not included in the repository to keep it lightweight.
+- Scripts are designed to be CI-safe and production-aware.
+
